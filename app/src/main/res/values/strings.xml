@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">lib_boitinhyeu</string>
+
+    <string name="fragboitinhyeu_02">02</string>
+    <string name="fragboitinhyeu_tenbannam">Tên Bạn Nam</string>
+    <string name="fragboitinhyeu_11">11</string>
+    <string name="fragboitinhyeu_1997">1997</string>
+    <string name="fragboitinhyeu_tenbannu">Tên Bạn Nữ</string>
+    <string name="fragboitinhyeu_1990">1990</string>
+    <string name="fragboitinhyeu_batdauboi">BẮT ĐẦU BÓI</string>
+    <string name="fragboitinhyeu_100">100%</string>
+    <string name="fragboitinhyeu_0">0%</string>
+    <string name="fragboitinhyeu_phuongdong">Kết quả Bói Phương Đông</string>
+    <string name="fragboitinhyeu_xemketqua">Xem kết quả</string>
+    <string name="fragboitinhyeu_phuongtay">Kết quả Bói Phương Tây \n ( Cung Hoàng Đạo )</string>
+
+    <string name="boitinhyeu_thongtin">Thông Báo</string>
+    <string name="boitinhyeu_khongdctrong">Không được để trống</string>
+    <string name="boitinhyeu_khongdcdeso">Ngày Tháng Phải là số</string>
+
+    <string-array name="boitinhyeu_cungmang">
+        <item>càn</item>
+        <item>khảm</item>
+        <item>cấn</item>
+        <item>chấn</item>
+        <item>tốn</item>
+        <item>ly</item>
+        <item>khôn</item>
+        <item>đoài</item>
+    </string-array>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_boitinhyeu"
+    app:startDestination="@id/fragmentBoiTinhYeu">
+
+
+    <fragment
+        android:id="@+id/fragmentBoiTinhYeu"
+        android:name="com.myapp.lib_boitinhyeu.FragmentBoiTinhYeu"
+        android:label="fragment_boi_tinh_yeu"
+        tools:layout="@layout/fragment_boi_tinh_yeu" >
+        <action
+            android:id="@+id/action_fragmentBoiTinhYeu_to_fragmentBoiTinhYeuDes"
+            app:destination="@id/fragmentBoiTinhYeuDes" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentBoiTinhYeuDes"
+        android:name="com.myapp.lib_boitinhyeu.FragmentBoiTinhYeuDes"
+        android:label="fragment_boi_tinh_yeu_des"
+        tools:layout="@layout/fragment_boi_tinh_yeu_des" >
+        <action
+            android:id="@+id/action_fragmentBoiTinhYeuDes_to_fragmentBoiTinhYeuDes2"
+            app:destination="@id/fragmentBoiTinhYeuDes2" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentBoiTinhYeuDes2"
+        android:name="com.myapp.lib_boitinhyeu.FragmentBoiTinhYeuDes2"
+        android:label="fragment_boi_tinh_yeu_des2"
+        tools:layout="@layout/fragment_boi_tinh_yeu_des2" >
+        <action
+            android:id="@+id/action_fragmentBoiTinhYeuDes2_to_fragmentBoiTinhYeuDes3"
+            app:destination="@id/fragmentBoiTinhYeuDes3" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentBoiTinhYeuDes3"
+        android:name="com.myapp.lib_boitinhyeu.FragmentBoiTinhYeuDes3"
+        android:label="fragment_boi_tinh_yeu_des3"
+        tools:layout="@layout/fragment_boi_tinh_yeu_des3" >
+        <action
+            android:id="@+id/action_fragmentBoiTinhYeuDes3_to_fragmentBoiTinhYeu"
+            app:destination="@id/fragmentBoiTinhYeu" />
+    </fragment>
+
+</navigation>

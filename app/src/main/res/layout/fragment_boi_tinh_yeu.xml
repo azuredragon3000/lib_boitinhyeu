@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/absoluteLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bty_azuredragon_bg"
+    android:theme="@style/Theme.AppCompat.Light"
+    tools:context=".FragmentBoiTinhYeu">
+
+    <LinearLayout
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="150dp"
+        android:baselineAligned="false">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            tools:ignore="UselessParent">
+            <EditText
+                android:id="@+id/nameNam"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_edittext"
+                android:gravity="center"
+                android:hint="@string/fragboitinhyeu_tenbannam"
+                android:singleLine="true"
+                android:textColor="@android:color/holo_blue_dark"
+                android:padding="10dp"
+                android:autofillHints=""
+                android:imeOptions="actionDone"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/birthdayNam_ngay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:background="@drawable/rounded_edittext"
+                android:inputType="date"
+                android:hint="@string/fragboitinhyeu_02"
+                android:singleLine="true"
+                android:imeOptions="actionDone"
+                android:textColor="@android:color/holo_blue_dark"
+                android:padding="10dp"
+                android:autofillHints="" />
+
+            <EditText
+                android:id="@+id/birthdayNam_thang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:background="@drawable/rounded_edittext"
+                android:inputType="date"
+                android:hint="@string/fragboitinhyeu_11"
+                android:singleLine="true"
+                android:imeOptions="actionDone"
+                android:textColor="@android:color/holo_blue_dark"
+                android:padding="10dp"
+                android:autofillHints="" />
+
+            <EditText
+                android:id="@+id/birthdayNam_nam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:background="@drawable/rounded_edittext"
+                android:inputType="date"
+                android:imeOptions="actionDone"
+                android:hint="@string/fragboitinhyeu_1997"
+                android:singleLine="true"
+                android:textColor="@android:color/holo_blue_dark"
+                android:padding="10dp"
+                android:autofillHints="" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/line2"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/line1"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:baselineAligned="false">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            tools:ignore="UselessParent">
+            <EditText
+                android:id="@+id/nameNu"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_edittext"
+                android:gravity="center"
+                android:singleLine="true"
+                android:imeOptions="actionDone"
+                android:hint="@string/fragboitinhyeu_tenbannu"
+                android:textColor="@android:color/holo_blue_dark"
+                android:padding="10dp"
+                android:autofillHints=""
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/birthdayNu_ngay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:background="@drawable/rounded_edittext"
+                android:inputType="date"
+                android:imeOptions="actionDone"
+                android:hint="@string/fragboitinhyeu_02"
+                android:singleLine="true"
+                android:textColor="@android:color/holo_blue_dark"
+                android:padding="10dp"
+                android:autofillHints="" />
+
+            <EditText
+                android:id="@+id/birthdayNu_thang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:background="@drawable/rounded_edittext"
+                android:inputType="date"
+                android:imeOptions="actionDone"
+                android:hint="@string/fragboitinhyeu_11"
+                android:singleLine="true"
+                android:textColor="@android:color/holo_blue_dark"
+                android:padding="10dp"
+                android:autofillHints="" />
+
+            <EditText
+                android:id="@+id/birthdayNu_nam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:background="@drawable/rounded_edittext"
+                android:inputType="date"
+                android:imeOptions="actionDone"
+                android:hint="@string/fragboitinhyeu_1990"
+                android:singleLine="true"
+                android:textColor="@android:color/holo_blue_dark"
+                android:padding="10dp"
+                android:autofillHints="" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line2"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button_custom"
+        android:text="@string/fragboitinhyeu_batdauboi"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textStyle="bold"
+        />
+
+    <!--<com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-8404443559572571/9602913261" />-->
+
+</RelativeLayout>
